@@ -1,0 +1,161 @@
+.top-nav-bar {
+	float: right;
+	min-width: 238px;
+	margin-top: 4px;
+	text-align: right;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.nav-text {
+	display: inline-block;
+}
+
+.nav-text a {
+	margin-left: 10px;
+	display: inline-block;
+	font-family: Arial;
+	text-decoration: none;
+	font-size: 13px;
+	color: #222;
+}
+
+.nav-text a:hover {
+	text-decoration: underline;
+}
+
+.nav-icon {
+	display: inline-block;
+}
+
+.nav-grid-icon:hover {
+	opacity: 1;
+}
+
+.nav-grid {
+	height: 20px;
+	width: 20px;
+	opacity: 0.6;
+	text-decoration:none;
+	display:inline-block;
+	position: relative;
+	top: 5px;
+	margin-left: 17px;
+	background: url('images/googlesprite.png');
+}
+
+.nav-grid-icon {
+	background-position: -332px -58px;
+}
+
+.btn-signin {
+	color: #fff;
+	text-decoration:none;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	padding: 8px 12px;
+	border-radius: 2px;
+	font-family: Arial;
+	font-size: 13px;
+	margin-left: 17px;
+	font-weight: 600;
+}
+
+.content {
+	font-family: Arial;
+	display: block;
+	text-align: center;
+}
+
+.logo {
+	border: 1px solid white;
+	display:block;
+	margin-bottom: 0px;
+}
+
+div > img {
+	height:95px;
+	width: 269px;
+	margin: 190px auto 0px;
+	display: block;
+}
+
+.search {
+	margin-top:25px;
+}
+
+.form-search {
+	display:block;
+	text-align: center;
+}
+
+.form-search input {
+	width: 575px;
+	line-height: 25px;
+	margin: 0px auto 15px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding-left: 8px;
+
+}
+
+.form-search input:hover {
+	border-color: #aaa;
+}
+
+.form-search input:focus {
+	border: 1px solid #4259f4;
+	outline:none;
+}
+
+.form-btn button {
+	height: 29px;
+	line-height: 27px;
+	background: linear-gradient(#f5f5f5, #f1f1f1);
+	border-radius: 2px;
+	border: 1px solid #ddd;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration:none;
+	color: #444;
+}
+
+.form-btn button:hover {
+    box-shadow: 0 1px 1px -1px #aaa;
+    border: 1px solid #ccc;
+    color: #333;
+
+}
+
+footer {
+	display:block;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #f0f0f0;
+	border-top: 1px solid #ddd;
+	padding: 12px;
+}
+
+footer a {
+	text-decoration: none;
+	font-family:Arial;
+	font-size: 13px;
+	color: #555;
+	padding: 12px 14px;
+}
+
+.footer-left {
+	display: inline-block;
+	float: left;
+}
+
+.footer-right {
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}

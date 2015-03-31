@@ -1,7 +1,5 @@
 #container {
 	border: 1px solid black;
-	width: 1000px;
-	height: 1000px;
 	text-align: center;
 }
 
@@ -16,10 +14,12 @@ div {
 	margin: 0px;
 	border:1px solid black;
 	vertical-align: top;
-	background-color: yellow;
+}
+
+.highlight {
+	background-color: gray;
 }
 
 .row {
-	background-color: blue;
 	margin:0px;
 }

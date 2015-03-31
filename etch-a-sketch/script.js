@@ -3,6 +3,9 @@ var $row = $('<div />', {class: 'row'});
 
 $(document).ready(function() {
 	createGrid(10, 10);
+	$('.cell').hover(function() {
+		$(this).addClass('highlight');
+	});
 });
 
 function createGrid(numRows, numCols) {

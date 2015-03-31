@@ -24,15 +24,14 @@ $(document).ready(function() {
 			newCols = 16;
 		} else {
 			newCols = newRows;
-			alert("new row " + newRows + " new col " + newCols);
+			// Clear elements of previous grid
+			$row.empty();
+			$container.empty();
+			createGrid(newRows, newCols);
+			$('.cell').hover(function() {
+				$(this).addClass('highlight');
+			});
 		}
-		// Clear elements of previous grid
-		$row.empty();
-		$container.empty();
-		createGrid(newRows, newCols);
-		$('.cell').hover(function() {
-			$(this).addClass('highlight');
-		});
 	});
 });
 

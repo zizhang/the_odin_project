@@ -1,0 +1,25 @@
+#container {
+	border: 1px solid black;
+	width: 1000px;
+	height: 1000px;
+	text-align: center;
+}
+
+div {
+	margin:0px;
+}
+
+.cell {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px;
+	border:1px solid black;
+	vertical-align: top;
+	background-color: yellow;
+}
+
+.row {
+	background-color: blue;
+	margin:0px;
+}

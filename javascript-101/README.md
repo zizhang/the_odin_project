@@ -1,4 +1,6 @@
-### The Odin Project: Javascript 101
+# The Odin Project: 
+
+Project: Javascript 101
 
 Project Euler Problems
 

@@ -2,4 +2,4 @@
 
 Project: HTML/CSS
 
-Google Homepage
+Replicate Google's homepage using HTML and CSS

@@ -6,6 +6,10 @@ $(document).ready(function() {
 	$('.cell').hover(function() {
 		$(this).addClass('highlight');
 	});
+
+	$('#clearBtn').on('click', function() {
+		$('.cell').removeClass('highlight');
+	});
 });
 
 function createGrid(numRows, numCols) {

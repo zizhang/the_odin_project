@@ -1,11 +1,11 @@
-#container {
-	border: 1px solid black;
+.container {
 	text-align: center;
 }
 
-div {
-	margin:0px;
+#nav {
+	text-align: center;
 }
+
 
 .cell {
 	width: 20px;
@@ -22,4 +22,11 @@ div {
 
 .row {
 	margin:0px;
+}
+
+button {
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
 }

@@ -1,4 +1,4 @@
-# The Odin Project: 
+# The Odin Project
 
 Project: Javascript 101
 

@@ -24,6 +24,6 @@ Labs:
 * 10 Temperature Object
 * 11 Dictionary
 * 12 Rpn Calculator
-* 13 Xml Document
-* 14 Array Extensions
-* 15 In Words
+* 13 Xml Document		(skipped)
+* 14 Array Extensions	(skipped)
+* 15 In Words			(skipped)
